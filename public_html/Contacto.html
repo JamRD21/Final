@@ -49,11 +49,20 @@ and open the template in the editor.
                 <input type='text' id='Correo'/>
             </div>
 
+            <label for="so">Que Necesitas?</label> <br/>
+            <select id="so" name="so">
+                <option value="" selected="selected">- selecciona -</option>
+                <option value="devolucion">Devolucion de producto</option>
+                <option value="soporte">Contactar con el Soporte</option>
+                <option value="reportar">Reportar inconveniente</option>
+                <option value="otro">Otro</option>
+            </select>
+
             <div>    
                 <label for='comentario'>Comente lo que desee:</label>
                 <textarea id='asunto' cols='50' rows='10'></textarea>
             </div>
-            
+
             <div>
                 <button type='submit'> Enviar</button>
             </div>
